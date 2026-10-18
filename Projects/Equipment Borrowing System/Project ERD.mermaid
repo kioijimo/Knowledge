@@ -1,0 +1,18 @@
+erDiagram
+        USER ||--o{ BORROW_REQUEST : applies
+        CATEGORY ||--o{ CATALOG_ITEM : organizes
+        CATALOG_ITEM ||--|| EQUIPMENT_UNIT : describes
+        BORROW_REQUEST ||--|{ REQUEST_ITEM : lists
+        REQUEST_ITEM ||--|| UNIT_ALLOCATION : allocates
+        REQUEST_ITEM ||--||CATALOG_ITEM : requests
+        BORROW_REQUEST ||--|| LOAN_RECORD : approves
+        BORROW_REQUEST ||--|| RETURN_RECORD : returns
+        ADMIN || --o{ BORROW_REQUEST : processes
+        ADMIN ||--o{ MAINTENANCE_RECORD : creates 
+        CATALOG_ITEM |o--o| MAINTENANCE_RECORD : undergoes
+        ADMIN ||--o{ AUDIT_LOG : logs
+        SYSTEM_SETTINGS
+
+        
+        
+

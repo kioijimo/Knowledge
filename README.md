@@ -16,4 +16,7 @@ Lorem ipsum sit amet…
 
 ### Categories
 #### [Linux](Linux/README)
- Contains almost everything I know about Linux— from distributions, man pages, commands, package managers, compositors, desktop environments, and more. This is about mainly distribution(s) I have and currently am daily-driving. This contains troubleshooting of unexpected errors and results, murky set up for individual distros to serve as guide the next time I go through the process, customizing the look and feel, running different software that requires additional set up, configuring development environments, and so on.#
+ Contains almost everything I know about Linux— from distributions, man pages, commands, package managers, compositors, desktop environments, and more. This is about mainly distribution(s) I have and currently am daily-driving. This contains troubleshooting of unexpected errors and results, murky set up for individual distros to serve as guide the next time I go through the process, customizing the look and feel, running different software that requires additional set up, configuring development environments, and so on.
+
+#### [Projects](Projects/README)
+Contains documentation, learnings, and information about projects I create. This will mostly contain development projects. Each project will have its own folder.
